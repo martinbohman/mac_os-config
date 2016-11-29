@@ -4,8 +4,8 @@
 # Applies basic system settings.
 
 # EXECUTION
-read -p "What is this machine's label (Example: \"Alchemist\")? " mac_os_label
-read -p "What is this machine's name (Example: \"alchemist\")? " mac_os_name
+read -p "What is this machine's label (Example: \"MB\")? " mac_os_label
+read -p "What is this machine's name (Example: \"mb\")? " mac_os_name
 
 if [[ -z "$mac_os_label" ]]; then
   printf "ERROR: Invalid MacOS label. It must be provided.\n"
@@ -17,9 +17,9 @@ if [[ -z "$mac_os_name" ]]; then
   exit 1
 fi
 
-printf "Cleaning default directories...\n"
-rm -rf $HOME/Documents/*
-rm -rf $HOME/Downloads/*
+# printf "Cleaning default directories...\n"
+# rm -rf $HOME/Documents/*
+# rm -rf $HOME/Downloads/*
 
 printf "Setting system label and name...\n"
 sudo scutil --set ComputerName $mac_os_label
