@@ -27,7 +27,7 @@ printf "System - Automatically restart if system freezes\n"
 systemsetup -setrestartfreeze on
 
 printf "System - Always show scrollbars"
-defaults write NSGlobalDomain AppleShowScrollBars -string "Auto"
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
 printf "System - Show remaining battery percentage"
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
@@ -61,6 +61,9 @@ defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM  HH:mm"
 
 printf "System - Force 24hr time"
 defaults write NSGlobalDomain AppleICUForce24HourTime -bool true
+
+printf "System - Keep windows when restarting app"
+defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool true
 
 printf "Keyboard - Turn off keyboard illumination when computer is not used for 5 minutes\n"
 defaults write com.apple.BezelServices kDimTime -int 60
