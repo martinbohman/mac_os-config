@@ -44,3 +44,7 @@ install_git_project "https://github.com/MartinBohman/sublime_text_setup.git" $RE
 # rm -f $HOME/.bash_profile
 # install_git_project "https://github.com/MartinBohman/dotfiles.git" $REPO_DOTFILES "dotfiles" "bin/run i"
 # source $HOME/.bashrc
+
+# Set correct desktop background
+sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '~/Pictures/default.jpg'";
+killall Dock;
