@@ -104,8 +104,11 @@ defaults write NSGlobalDomain CGDisableCursorLocationMagnification -bool true
 printf "Trackpad - Lower acceleration"
 defaults write .GlobalPreferences com.apple.trackpad.scaling 1.5
 
-printf "Mouse - Lower acceleration"
-defaults write .GlobalPreferences com.apple.mouse.scaling 2
+printf "Mouse - Remove acceleration"
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
+
+printf "Mouse - Remove scroll acceleration"
+defaults write .GlobalPreferences com.apple.scrollwheel.scaling -1
 
 printf "Bluetooth - Increase sound quality for headphones/headsets\n"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
