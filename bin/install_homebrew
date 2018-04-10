@@ -114,7 +114,7 @@ brew cask install kodi
 brew cask install texmaker
 brew cask install paintbrush
 brew cask install microsoft-office
-brew cask install messenger-for-desktop
+brew cask install caprine
 brew cask install disk-inventory-x
 brew cask install bettertouchtool
 brew cask install appcleaner
