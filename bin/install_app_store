@@ -11,11 +11,11 @@ if ! command -v mas > /dev/null; then
   exit 1
 fi
 
-# 1Password
-mas install 443987910
-
 # Marko
 mas install 607997198
 
-# Moom
-mas install 419330170
+# Trello
+mas install 1278508951
+
+# BankID
+mas install 433151512
