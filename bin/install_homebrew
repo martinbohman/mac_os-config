@@ -62,19 +62,19 @@ brew install zsh
 
 # -- Casks --
 
-brew install --cask google-chrome
+brew install --cask appcleaner
+brew install --cask bettertouchtool
+brew install --cask dash
+brew install --cask disk-inventory-x
 brew install --cask firefox
-brew install --cask slack
-brew install --cask spotify
-brew install --cask vlc
-brew install --cask sublime-text
-brew install --cask skype
-brew install --cask postman
+brew install --cask google-chrome
 brew install --cask kodi
 brew install --cask paintbrush
-brew install --cask disk-inventory-x
-brew install --cask bettertouchtool
-brew install --cask appcleaner
-brew install --cask dash
+brew install --cask postman
+brew install --cask skype
+brew install --cask slack
+brew install --cask spotify
+brew install --cask sublime-text
 brew install --cask ticktick
 brew install --cask visual-studio-code
+brew install --cask vlc
