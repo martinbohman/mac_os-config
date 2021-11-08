@@ -235,3 +235,6 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 
 printf "Messages - Disable smart quotes as it’s annoying for messages that contain code"
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
+
+printf "Mute startup sound"
+sudo nvram StartupMute=%01
