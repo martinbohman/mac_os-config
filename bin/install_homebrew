@@ -20,6 +20,9 @@ brew install awscli
 # Bash
 brew install bash
 
+# Blackhole audio
+brew install blackhole-16ch
+
 # Docker
 brew install docker
 
@@ -28,6 +31,9 @@ brew install git
 
 # Mac App Store CLI
 brew install mas
+
+# Minio
+brew install minio/stable/minio
 
 # Nginx
 brew install nginx
@@ -63,6 +69,7 @@ brew install zsh
 # -- Casks --
 
 brew install --cask 1password
+brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask bettertouchtool
 brew install --cask dash
@@ -72,7 +79,7 @@ brew install --cask fastscripts
 brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask graphiql
-brew install --cask kodi
+brew install --cask linear-linear
 brew install --cask messenger
 brew install --cask notion
 brew install --cask paintbrush
